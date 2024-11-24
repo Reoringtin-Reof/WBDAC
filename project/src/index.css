@@ -1,0 +1,21 @@
+.piano {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .key {
+      width: 50px;
+      height: 200px;
+      background-color: #fff;
+      border: 1px solid #000;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .key:hover {
+      background-color: #ccc;
+    }
